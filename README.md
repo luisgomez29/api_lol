@@ -33,5 +33,6 @@ go run main.go
 
 
     http://localhost:8000/api/v1/users
+    
     http://localhost:8000/api/v1/characters
 
