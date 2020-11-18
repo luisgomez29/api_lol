@@ -4,6 +4,6 @@ services:
     build: .
     container_name: nginx-loadbalancer
     volumes:
-      - ngix.conf /etc/nginx/conf.d/default.conf
+      - nginx.conf:/etc/nginx/nginx.conf:ro
     ports:
     - 80:80
